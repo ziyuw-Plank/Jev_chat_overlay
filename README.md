@@ -10,13 +10,6 @@ AutoJs6、安卓悬浮窗、聊天分析、意图识别、微信、TIM、QQ、�
 
 AutoJs6, Android overlay, chat intent, WeChat, TIM, QQ, sticker recognition, screenshot OCR, accessibility, suggested reply, no auto-send, Jev, DeepSeek, hypothesis scoring
 
-## 别人会怎么找到它
-
-- 微信、QQ、TIM 里，想看清对方这句话是在确认、开玩笑，还是在加需求
-- 找一个安卓悬浮层，分析当前聊天，而不是自动代回
-- 想用 Jev 给几种理解打百分比，而不是只给一句总结
-- 找 AutoJs6 脚本：无障碍读气泡，读不到再用 OCR，图片和表情包交给视觉模型看画面
-
 ## 准备
 
 1. 手机安装 [AutoJs6](https://github.com/SuperMonster003/AutoJs6)，打开无障碍，允许悬浮窗和截图。
