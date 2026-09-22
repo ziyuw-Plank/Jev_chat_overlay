@@ -1,8 +1,21 @@
-# jev-chat-overlay
+# Jev Chat Overlay
 
-AutoJs6 聊天悬浮层。看当前聊天里对方的文字和图片，拆成几条互斥假说，交给 Jev 打百分比，再写一句建议动作。
+安卓聊天意图分析悬浮窗。在微信、TIM、QQ 当前打开的对话里，读取对方刚发的文字、截图和表情包，拆成几条互斥假说，用 Jev 打出百分比，再给一句可以复制的建议回复。只分析，不自动发送消息。
 
-不自动发送任何消息。
+**Jev Chat Overlay** is an AutoJs6 floating window for Android chat apps. It reads the open conversation, scores mutually exclusive readings with Jev, and suggests one reply. It never sends a message for you.
+
+## 关键词
+
+AutoJs6、安卓悬浮窗、聊天分析、意图识别、微信、TIM、QQ、表情包识别、截图识字、OCR、无障碍、建议回复、不自动发送、Jev、DeepSeek
+
+AutoJs6, Android overlay, chat intent, WeChat, TIM, QQ, sticker recognition, screenshot OCR, accessibility, suggested reply, no auto-send, Jev, DeepSeek, hypothesis scoring
+
+## 别人会怎么找到它
+
+- 微信、QQ、TIM 里，想看清对方这句话是在确认、开玩笑，还是在加需求
+- 找一个安卓悬浮层，分析当前聊天，而不是自动代回
+- 想用 Jev 给几种理解打百分比，而不是只给一句总结
+- 找 AutoJs6 脚本：无障碍读气泡，读不到再用 OCR，图片和表情包交给视觉模型看画面
 
 ## 准备
 
@@ -37,3 +50,7 @@ AutoJs6 聊天悬浮层。看当前聊天里对方的文字和图片，拆成几
 4. DeepSeek 为每条对方消息写 2 到 4 个互斥假说。
 5. Jev 给这些假说打百分比。
 6. 再写一句建议动作：闲聊就短回，对方在加需求或压时间才划边界。
+
+## 它不是什么
+
+不是自动回复、不是群发、也不会替你点发送。建议动作要自己复制进输入框。
